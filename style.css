@@ -1,0 +1,128 @@
+.inner-bogo,
+.inner-khusong,
+.inner-tentruycap {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+
+body{
+    margin: 0;
+}
+
+*{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container {
+    padding-top: 50px;
+    max-width: 990px;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.inner-bogo .inner-desc {
+    width: 40%;
+    text-align: right;
+}
+.inner-bogo{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #144bb2;
+
+}
+
+.inner-khusong label[for="khusong"] {
+    width: 30%;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.inner-tentruycap label[for="tentruycap"] {
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+
+}
+
+.inner-matkhau,
+.inner-xacnhan,
+.inner-tendaydu,
+.inner-email,
+.inner-mobile,
+.inner-sodienthoai,
+.inner-website,
+.inner-diachi,
+.inner-mabaove {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.inner-matkhau label[for="password"] {
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.inner-xacnhan label[for="xacnhan"] {
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.inner-tendaydu label[for="tendaydu"] {
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+label[for="email"],
+label[for="mobile"],
+label[for="dienthoaikhac"],
+label[for="website"],
+label[for="diachi"],
+label[for="mabaove"]{
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+.inner-mabaove .ma{
+    font-size: 18px;
+    margin-left: 30px;
+    background-color: rgb(127, 165, 255);
+    padding: 0px 40px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.inner-check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.inner-button{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.inner-button input[type="submit"]{
+    margin-right: 40px;
+}
+@media (max-width:767.98px) {
+    .container{
+        margin: 0;
+    }
+    *{
+        font-size: 16px;
+        overflow: hidden;
+    }
+}
